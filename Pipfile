@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+sanic = "*"
+sanic-openapi = "*"
+sentry-sdk = "==0.13.2"
+pyjwt = "*"
+
+[requires]
+python_version = "3.7"
